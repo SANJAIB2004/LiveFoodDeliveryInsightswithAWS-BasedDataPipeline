@@ -97,84 +97,33 @@ indian-food-pipeline-dashboard/
 
 ## 🔧 **Configuration**
 
-### **API Endpoints**
+API Endpoints
 The dashboard uses the following APIs for data generation:
 - `https://randomuser.me/api/` - For customer data generation
 - `https://jsonplaceholder.typicode.com/users` - For restaurant data
 
-### **Data Refresh**
-- Cached data refreshes every 5 minutes automatically
-- Manual refresh available via sidebar button
-- Real-time data simulation for demonstration purposes
+🎯 Use Cases
 
-## 📊 **Data Sources**
-
-### **Primary Data Tables**
-1. **Customers**: Demographics, preferences, loyalty tiers
-2. **Menu Items**: Dishes, categories, pricing, nutritional info
-3. **Ingredients**: Inventory, suppliers, expiration dates
-4. **Orders**: Transaction data, delivery methods, payment info
-5. **Restaurants**: Locations, ratings, operational details
-
-### **Generated Metrics**
-- Sales analytics and revenue tracking
-- Customer segmentation and behavior
-- Menu performance and popularity
-- Inventory management and alerts
-- Operational efficiency metrics
-
-## 🎯 **Use Cases**
-
-### **Restaurant Chains**
+Restaurant Chains
 - Multi-location performance monitoring
 - Menu optimization across regions
 - Inventory management and cost control
 - Customer preference analysis
 
-### **Food Delivery Services**
+Food Delivery Services
 - Order pattern analysis
 - Delivery performance tracking
 - Customer retention insights
 - Revenue optimization
 
-### **Catering Businesses**
+Catering Businesses
 - Event-based analytics
 - Ingredient planning and procurement
 - Cost analysis and profit margins
 - Customer preference tracking
 
-## 🚀 **Key Technologies**
-
-- **Frontend**: Streamlit (Python web framework)
-- **Visualizations**: Plotly Express & Graph Objects
-- **Data Processing**: Pandas, NumPy
-- **API Integration**: Requests library
-- **Caching**: Streamlit's native caching system
-
-## 📈 **Performance Features**
-
-- **Data Caching**: 5-minute TTL for API calls
-- **Session State Management**: Efficient data storage
-- **Lazy Loading**: On-demand data generation
-- **Responsive Design**: Works on desktop and tablet devices
-
-## 🔒 **Security & Privacy**
-
-- No sensitive data storage
-- Mock data generation for demonstration
-- API rate limiting protection
-- Session-based data management
-
-## 🛠️ **Customization**
-
-### **Adding New Menu Items**
-```python
-# In generate_food_menu_data() function
-menu_items = [
-    'Your New Dish',
-    # ... existing items
-]
 ```
+
 
 ### **Adding New Regions**
 ```python
